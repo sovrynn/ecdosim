@@ -4,9 +4,7 @@ See the sim here: https://sovrynn.github.io/#/ECDOsim
 
 This repo is solely devoted for the sim pipeline for anyone who wants to extend on this sim.
 
-If you just want the .blend files, look to releases.
-
-.tif files are in `0-files`.
+If you just want the .blend and .tif files, look to releases.
 
 ## Sim Pipeline
 

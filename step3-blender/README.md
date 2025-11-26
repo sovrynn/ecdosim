@@ -7,3 +7,14 @@ Finally, the two tif files are loaded into blender using BlenderGIS.
 Then, "basemap on mesh" option is used to overlay the basemap onto the terrain.
 
 Afterwards, blender is used for everything - from the sim, to the renders. The fluid sim uses the classic mantaflow solver rather than the newer geometry nodes.
+
+## scripts
+
+I use various scripts within Blender (recommend starting it from the command line using ex. caffeinate) to handle the keyframes for modifying vortex forces etc
+
+by the end, I essentially exclusively used:
+- script4 multiply 1.5 : multiplying forces (but not vortex)
+- script91 print all keyframes and values for forces and vortex
+- script92 scale vortex: adjust vortex strength
+- script97: adjust timescale by simply scaling duration between keyframes
+- script996/997: for adding the cross rotation which is derived from the vortex
