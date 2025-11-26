@@ -14,6 +14,14 @@ a point vortex force with the flow parameter is used to swing the water in a cir
 
 Multiple pairs of partially overlapping and opposite point forces are used to pull the water inwards, as you will see if you inspect the .blend files.
 
+## techniques to achieve better performance or lower compute requirements
+
+1. reduce fluid resolution - domain subdivisions in blender
+2. reduce terrain resolution - delete the old terrain and load a new terrain+basemap with more pixels per point
+3. use a moduler bake to squeeze about 50% more resolution out of the same hardware
+
+past that, you just need to upgrade your hardware.
+
 ## scripts
 
 I use various scripts within Blender (recommend starting it from the command line using ex. caffeinate) to handle the keyframes for modifying vortex forces etc
