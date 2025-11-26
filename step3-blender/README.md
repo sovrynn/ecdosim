@@ -8,6 +8,12 @@ Then, "basemap on mesh" option is used to overlay the basemap onto the terrain.
 
 Afterwards, blender is used for everything - from the sim, to the renders. The fluid sim uses the classic mantaflow solver rather than the newer geometry nodes.
 
+## blender forces
+
+a point vortex force with the flow parameter is used to swing the water in a circle with the desired strength.
+
+Multiple pairs of partially overlapping and opposite point forces are used to pull the water inwards, as you will see if you inspect the .blend files.
+
 ## scripts
 
 I use various scripts within Blender (recommend starting it from the command line using ex. caffeinate) to handle the keyframes for modifying vortex forces etc
