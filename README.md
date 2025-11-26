@@ -6,6 +6,8 @@ This repo is solely devoted for the sim pipeline for anyone who wants to extend 
 
 If you just want the .blend and .tif files, look to releases.
 
+Basic hardware requirements to run v8 resolution of the sim: 96+ gb ram, good CPU
+
 ## Sim Pipeline
 
 ### Step 1: TIF data generation
