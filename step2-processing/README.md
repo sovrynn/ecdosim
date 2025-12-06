@@ -11,3 +11,7 @@ In later sim versions the DEM is chopped off at the bottom (concatenate -t 0.18)
 Finally, the files are cropped (must use the exact same crop!) and the CRS, which was lambert azimuthal before, is hardcoded to mercator without changing the actual pixel bands. (script 8)
 
 A last script tweaks some additional tif metadata to get blender to accept the files. (script 9)
+
+# scripts 94, 95
+
+used for v12 in moving the border into the desired radius
