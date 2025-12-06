@@ -22,6 +22,10 @@ The two GeoTIF files are prepared for Blender ingestion using a series of script
 
 In Blender, the sim is constructed using the assistance of BlenderGIS (Blender add-on) and Blender's built in fluid solver, Mantaflow. The liquid object is constructed by using a Boolean Difference modifier in Blender against the terrain. The liquid is rotated in vortex fashion using a Vortex force field. Several radial attractive forces are carefully applied to mitigate the centrifugal distortion created by rotating fluid.
 
+### Step 4: Post-Render Processing
+
+This is mostly for text overlays, but the particle velocity renders have some more steps.
+
 There are many, many "gotchas" along the way. I'll try to mention as many as I can during the writeup.
 
 # ECDOsim Intro
