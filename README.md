@@ -8,6 +8,16 @@ If you just want the .blend and .tif files, look to releases.
 
 Basic hardware requirements to run v8 resolution of the sim: 96+ gb ram, good CPU
 
+## 3D Sim Pipeline
+
+The 3D sim pipeline is much easier than the 2d lambert pipeline.
+
+First, files must be exported in QGIS. They are clipped to only take up a 2:1 ratio of pixels covering only the latitude of the earth.
+
+Those are loaded into Blender using a UV sphere with high subdivisions as the base. A displace modifier is used to uv map the dem as a displacement modifier, creating the Earth terrain. The basemap is loaded as a image texture on the terrain object.
+
+Relevant scripts are in v13-v15.
+
 ## Sim Pipeline
 
 ### Step 1: TIF data generation
